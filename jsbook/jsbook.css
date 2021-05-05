@@ -1,0 +1,64 @@
+/* css reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+
+}
+header {
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+    padding: 1em;
+}
+header li {
+    display: inline;
+
+}
+a {
+    color: rgb(220, 220, 220);
+    text-decoration: none;
+    margin-right: 1.5em;
+}
+article {
+    background-color: rgb(220, 220, 220);
+    text-align: center;
+    padding-bottom: 5em;
+}
+h1 {
+    font-family: monospace;
+    text-align: center;
+    padding: 1.5em;
+}
+img {
+    height: 45vh;
+}
+article div {
+    display: inline-block;
+}
+article ul {
+    list-style-type: none;
+}
+article li {
+    padding: 2em;
+}
+input[type="button"] {
+    background-color: orange;
+    border-radius: 0.7em;
+    border-style: none;
+    padding: 0.3em 1em;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 2em;
+}
+p {
+    margin-bottom: 1.7em;
+}
